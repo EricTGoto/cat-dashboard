@@ -164,7 +164,9 @@ button:hover {
     height: 100%;
     display: grid;
     justify-content: space-between ;
-    grid-template: 1fr 1fr 1fr / 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    /*grid-template: 1fr 1fr 1fr / 1fr 1fr;*/
     gap: 15px 20px;
 }
 
@@ -196,7 +198,8 @@ button:hover {
 .card-action-block {
     display: flex;
     gap: 20px;
-    height: 24px;
+    height: 44px;
+    padding: 10px 0px;
     justify-content: end;
 }
 
