@@ -176,6 +176,10 @@ button:hover {
     padding: 20px 20px 0px 30px;
     background-color: var(--card-colour);
     box-shadow: var(--box-shadow);
+
+    display: grid;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .project-card::before {
@@ -187,6 +191,13 @@ button:hover {
     width: 5px;
     border-radius: 10px 0 0 10px;
     background-color: green;
+}
+
+.card-action-block {
+    display: flex;
+    gap: 20px;
+    height: 24px;
+    justify-content: end;
 }
 
 .announcements {
