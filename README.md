@@ -1,3 +1,3 @@
-# admin-dashboard
+# grid-dashboard
 
 This is a project to practice CSS grid.
