@@ -166,7 +166,6 @@ button:hover {
     justify-content: space-between ;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    /*grid-template: 1fr 1fr 1fr / 1fr 1fr;*/
     gap: 15px 20px;
 }
 
@@ -201,6 +200,10 @@ button:hover {
     height: 44px;
     padding: 10px 0px;
     justify-content: end;
+}
+
+.card-action-block > img {
+    cursor: pointer;
 }
 
 .announcements {
