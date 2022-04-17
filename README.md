@@ -1,6 +1,6 @@
 # grid-dashboard
 
-This is a project to practice CSS grid.
+This is a project to practice CSS grid. Take a look here: https://erictgoto.github.io/cat-dashboard 
 
 Icons taken from materialdesignicons.com and flaticon.com.
 
