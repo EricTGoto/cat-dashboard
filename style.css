@@ -138,7 +138,7 @@ button:hover {
 }
 
 .content {
-    padding: 20px 20px 50px 20px;
+    padding: 20px 20px 40px 20px;
     grid-column: 2;
     background-color: var(--background-colour);
     display: grid;
@@ -148,15 +148,17 @@ button:hover {
 
 .projects {
     grid-row: 1 / 3;
-    display: grid;
-    justify-content: space-between ;
-    grid-template: 30px 1fr 1fr 1fr / 1fr 1fr;
-    gap: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.projects-title {
-    grid-row: 1;
-    grid-column: 1 / 3;
+.projects-container {
+    height: 100%;
+    display: grid;
+    justify-content: space-between ;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr;
+    gap: 15px 20px;
 }
 
 .project-card {
