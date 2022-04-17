@@ -15,7 +15,7 @@ body {
     font-family: 'Roboto', sans-serif;
     display: grid;
     height: 100vh;
-    grid-template: 200px 1fr / 1fr 4fr;
+    grid-template: 175px 1fr / 1fr 4fr;
 }
 
 .sidebar {
@@ -61,7 +61,7 @@ body {
 .search {
     display: grid;
     grid-template-columns: 20px 1fr;
-    gap: 10px;
+    gap: 20px;
     justify-self: center;
     align-items: center;
 }
@@ -90,9 +90,34 @@ input[type="text"] {
     height: auto;
 }
 
+.nav-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.user {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    gap: 20px;
+    padding: 0px 30px;
+}
+
 .profile-picture-big {
     width: 40px;
     height: auto;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav-buttons {
+    justify-self: end;
+    padding-right: 60px;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .nav-button {
