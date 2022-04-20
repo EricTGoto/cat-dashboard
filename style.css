@@ -215,7 +215,9 @@ button:hover {
 
 .announcement-container {
     display: flex;
+    flex: 1 1 0;
     flex-direction: column;
+    justify-content: space-evenly;
     gap: 10px;
     background-color: var(--card-colour);
     padding: 15px 15px;
